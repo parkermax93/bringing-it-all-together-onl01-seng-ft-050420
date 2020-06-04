@@ -34,7 +34,7 @@ class Dog
   end
   
   def self.new_from_db 
-    
+    dog = 
   end
   
   def save 
