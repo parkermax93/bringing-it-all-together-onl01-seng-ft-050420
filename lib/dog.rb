@@ -25,6 +25,6 @@ class Dog
       DROP TABLE IF EXISTS dog 
     SQL
     
-    DB[DB:conn].execute(sql)
+    DB[:conn].execute(sql)
   end
 end
