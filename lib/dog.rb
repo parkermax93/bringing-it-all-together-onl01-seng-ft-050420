@@ -29,6 +29,7 @@ class Dog
   end
   
   def save 
-    
+    self.id
+    self.update 
   end
 end
