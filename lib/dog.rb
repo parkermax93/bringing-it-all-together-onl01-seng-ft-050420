@@ -28,6 +28,8 @@ class Dog
     DB[:conn].execute(sql)
   end
   
+  def 
+  
   def save 
     if self.id
        self.update 
