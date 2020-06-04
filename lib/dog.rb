@@ -33,8 +33,8 @@ class Dog
     dog.save
   end
   
-  def self.new_from_db(row) 
-    dog = self.new(id: row[0], name: row[1], breed: row[2])
+  def self.new_from_db(array) 
+    dog = self.new(id: array[0], name: row[1], breed: row[2])
   end
   
   def save 
