@@ -67,4 +67,6 @@ class Dog
       dog = Dog.create(name: name, breed: breed)
     end
   end
+  
+  def self.find_by_name
 end
